@@ -50,7 +50,7 @@ redis-cli CONFIG SET maxmemory-policy noeviction
 ## Notes
 
 - This script is intended for testing purposes only. Running it on a production server can lead to unexpected behavior and should be done in a controlled environment.
-- Adjust the `num_threads` and `keys_per_thread` variables based on your system's capabilities and requirements.
+- Adjust the `num_threads` and `keys_per_thread` variables based on your system's capabilities and requirements. (TBD)
 
 ## License
 

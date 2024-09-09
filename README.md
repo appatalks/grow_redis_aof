@@ -43,9 +43,9 @@ redis-cli CONFIG SET maxmemory-policy noeviction
 ## How It Works
 
 - The script connects to the Redis server running on `localhost` at port `6379`.
-- It generates random strings of 10KB and inserts them into Redis.
+- It generates random strings of 1KB and inserts them into Redis.
 - The insertion is done using multiple threads to speed up the process.
-- The script prints progress every 100 keys and stops when the Redis memory limit is reached, indicated by the `OOM command not allowed` error.
+- The script prints progress every 1000 keys and stops when the Redis memory limit is reached, indicated by the `OOM command not allowed` error.
 
 ## Notes
 
